@@ -66,6 +66,13 @@ https://en.bem.info/methodology/quick-start/*/
 .menu__header img {
     height: 40px;
     margin-right: 10px;
+    filter
+    : brightness(1.9); /* Aumenta el brillo del ícono */
+}
+
+.menu__header img:hover{
+    transform: rotate(360deg); /* para girar el icon */
+    transition: transform 0.5s ease; 
 }
 
 .menu__title {
@@ -111,11 +118,27 @@ https://en.bem.info/methodology/quick-start/*/
     padding: 5%;
 }
 
-.title__profile {
+@keyframes movePolygon {
+    /*En 0%, el polígono se muestra con las coordenadas (50% 0%, 100% 50%, 50% 100%, 0% 50%). Esto representa un polígono en forma de diamante.*/
+    0% {
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+    /*En 50%, el polígono se muestra con las coordenadas (0% 0%, 100% 0%, 50% 100%, 0% 0%). Esto representa un polígono en forma de triángulo.*/
+    50% {
+      clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 0% 0%);
+    }
+    /*En 100%, el polígono vuelve a las coordenadas iniciales (50% 0%, 100% 50%, 50% 100%, 0% 50%), restableciendo la forma de diamante.*/
+    100% {
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+  }
+  
+  .title__profile {
     padding: 2rem;
     width: 15rem;
-
-}
+    animation: movePolygon 3s infinite;
+  }
+  
 
 .title__container {
     display: inline;
