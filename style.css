@@ -18,6 +18,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
+    background: linear-gradient(90deg, #00d4ff, #095279 );
 }
 
 ol,
@@ -51,11 +52,10 @@ https://en.bem.info/methodology/quick-start/*/
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #f2f2f2;
+    background: linear-gradient(90deg, #00d4ff, #095279 );
     padding: 10px;
     position: fixed;
-    width: 98%;
-
+    width: 100%;
 }
 
 .menu__header {
@@ -72,12 +72,13 @@ https://en.bem.info/methodology/quick-start/*/
     font-size: 18px;
     font-weight: bold;
     margin: 0;
+    color: #f5f5f5;
 }
 
 .menu__list {
     display: flex;
     list-style: none;
-    margin: 0;
+    margin: 0 30px 0 0;
     padding: 0;
 }
 
@@ -87,13 +88,16 @@ https://en.bem.info/methodology/quick-start/*/
 
 .menu__list__item a {
     text-decoration: none;
-    color: #000;
+    color: #F5F5F5;
     font-size: 14px;
+    transition: color 0.3s;
+    
 }
 
 .menu__list__item a:hover {
-    color: #000000;
+    color: #fcfcfc;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 
@@ -133,7 +137,8 @@ https://en.bem.info/methodology/quick-start/*/
 /* Estilos para los enlaces de redes sociales */
 .title__network__item a {
     text-decoration: none;
-    color: #333333;
+    color: #F5F5F5;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.8); /* Agrega una sombra al texto */
 }
 
 /* Estilos para los íconos de redes sociales */
@@ -142,6 +147,7 @@ https://en.bem.info/methodology/quick-start/*/
     height: 20px;
     vertical-align: middle;
     margin-right: 5px;
+    filter: brightness(1.2); /* Aumenta el brillo del ícono */
 }
 
 .title__network__item a:hover {
@@ -159,7 +165,7 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sección About*/
 
 .about {
-    background-color: #f8f8f8;
+    background: linear-gradient(90deg, #00d4ff, #095279 );
     padding: 20px;
 }
 
@@ -171,31 +177,37 @@ https://en.bem.info/methodology/quick-start/*/
 
 .about__title {
     font-size: 24px;
-    color: #333;
+    color: #F5F5F5;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .about__paragraph {
     font-size: 16px;
-    color: #666;
-    margin-bottom: 20px;
+    color: #F5F5F5;
+   
 }
 
 .about__container img {
-    width: 200px;
-    margin-top: 20px;
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    filter: brightness(1.2);
 }
 
 
 /*Section Skills */
 .skills {
-    background-color: #f8f8f8;
+    background: linear-gradient(90deg, #00d4ff, #095279 );
     padding: 20px;
 }
 
 .skills__title {
     font-size: 24px;
-    color: #333;
+    color: #F5F5F5;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -216,7 +228,8 @@ https://en.bem.info/methodology/quick-start/*/
 }
 
 .skills__box:hover {
-    background-color: #eaeaea;
+    background: linear-gradient(90deg, #ECECEC, #76A1DA);
+ 
 }
 
 .skills__box ul {
@@ -232,18 +245,18 @@ https://en.bem.info/methodology/quick-start/*/
 
 .skills__box .skills__name {
     font-size: 16px;
-    color: #333;
+    color: #f5f5f5;
 }
 
 /*Sección Hobbies*/
 .hobbies {
-    background-color: #f8f8f8;
+    background: linear-gradient(90deg, #00d4ff, #095279 );
     padding: 20px;
 }
 
 .hobbies__title {
     font-size: 24px;
-    color: #333;
+    color: #f5f5f5;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -263,7 +276,7 @@ https://en.bem.info/methodology/quick-start/*/
 }
 
 .hobbies__box:hover {
-    background-color: #eaeaea;
+    background: linear-gradient(90deg, #ECECEC, #76A1DA);
 }
 
 .hobbies__box ul {
@@ -279,19 +292,19 @@ https://en.bem.info/methodology/quick-start/*/
 
 .hobbies__box .hobbies__name {
     font-size: 16px;
-    color: #333;
+    color: #f5f5f5;
 }
 
 
 /* Experiencia Académica*/
 .academic {
-    background-color: #f8f8f8;
+    background: linear-gradient(90deg, #00d4ff, #095279 );
     padding: 20px;
 }
 
 .academic__title {
     font-size: 24px;
-    color: #333;
+    color: #f5f5f5;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -311,7 +324,7 @@ https://en.bem.info/methodology/quick-start/*/
 }
 
 .academic__courses__box:hover {
-    background-color: #eaeaea;
+    background: linear-gradient(90deg, #ECECEC, #76A1DA);
 }
 
 .academic__courses__box ul {
@@ -327,25 +340,33 @@ https://en.bem.info/methodology/quick-start/*/
 
 .academic__courses__box h4 {
     font-size: 16px;
-    color: #331;
+    color: #f5f5f5;
 }
 
 .academic__courses__box p {
     font-size: 14px;
-    color: #333;
+    color: #f5f5f5;
 }
 
 
 
 /* experiencia*/
 .experience {
-    background-color: #f8f8f8;
+    background: linear-gradient(90deg, #00d4ff, #095279 );
     padding: 20px;
+}
+
+.experience__title {
+    color: #f5f5f5
+}
+
+.experience__text {
+    color: #f5f5f5
 }
 
 .experience__section__title {
     font-size: 24px;
-    color: #333;
+    color: #f5f5f5;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -364,24 +385,24 @@ https://en.bem.info/methodology/quick-start/*/
 
 .experiencia__botao--repo,
 .experience__botao--demo {
-    background-color: #333;
-    color: #fff;
     border: none;
     padding: 8px 16px;
     border-radius: 4px;
     font-size: 14px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    background-color: #F5F5F5;
+    color: #000000;
 }
 
 .experiencia__botao--repo:hover,
 .experience__botao--demo:hover {
-    background-color: #666;
+    background: linear-gradient(90deg, #ECECEC, #76A1DA);
 }
 
 /* Sección de Contacto */
 .formcontato {
-    background-color: #f2f2f2;
+    
     padding: 20px;
 }
 
@@ -405,13 +426,13 @@ https://en.bem.info/methodology/quick-start/*/
 
 .formcontato__title {
     font-size: 24px;
-    color: #333;
+    color: #F5F5F5;
     margin-bottom: 10px;
 }
 
 .formcontato__subtext {
     font-size: 14px;
-    color: #666;
+    color: #F5F5F5;
     margin-bottom: 10px;
 }
 
@@ -437,20 +458,21 @@ https://en.bem.info/methodology/quick-start/*/
 
 .formcontato__botao {
     padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
+    
+    color: #000000;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .formcontato__botao:hover {
-    background-color: #555;
+    background: linear-gradient(90deg, #ECECEC, #76A1DA);
 }
 
 /* Sección de Footer */
 .footer {
-    background-color: #333;
+    border: 2px solid;
+    background: linear-gradient(90deg, #00d4ff, #095279 );
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -463,6 +485,7 @@ https://en.bem.info/methodology/quick-start/*/
 }
 
 .footer__rodape p {
+    
     margin: 0 10px;
 }
 

@@ -1,5 +1,5 @@
 // function([string1, string2],target id,[color1,color2])    
-consoleText(['Hola mi nombre es Angel Fernando Hernández Sánchez.', 'Soy ingeniero en sistemas comptuacionales y','construyo paginas web.'], 'text',['black']);
+consoleText(['Hola mi nombre es Angel Fernando Hernández Sánchez', 'Soy ingeniero en sistemas comptuacionales y','construyo paginas web.'], 'text',['WHITE']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
