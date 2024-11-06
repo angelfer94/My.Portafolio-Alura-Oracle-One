@@ -1,0 +1,17 @@
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de configuración de editor
+.vscode/
+.idea/
+*.log
+
+# Ignorar archivos temporales
+*.swp
+*.bak
+
+# Ignorar directorios y archivos innecesarios
+node_modules/
+npm-debug.log
+.env

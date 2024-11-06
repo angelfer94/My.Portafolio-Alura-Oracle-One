@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "name": "angel",
+      "email": "angel@prueba.alura.com",
+      "password": "123",
+      "id": "HlHN76lF5C"
+    },
+    {
+      "name": "admin",
+      "email": "admin@alura.com",
+      "password": "123",
+      "id": "76I0PiLeli"
+    },
+    {
+      "name": "admin",
+      "email": "admin@alura.com",
+      "password": "123",
+      "id": "ut3csx6tmD"
+    },
+    {
+      "name": "prueba1000",
+      "email": "prueba@1000.com",
+      "password": "1234",
+      "id": "q32DPIH2aS"
+    },
+    {
+      "name": "yuyu",
+      "email": "yuyu@alura.com",
+      "password": "1234",
+      "id": "wVOS4y51Au"
+    },
+    {
+      "name": "yuyu",
+      "email": "yuyu@alura.com",
+      "password": "123",
+      "id": "30nwEqeenI"
+    },
+    {
+      "name": "prueba2000",
+      "email": "prueba2@2000.com",
+      "password": "123",
+      "id": "UewkR2hyBl"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "celulares"
+    },
+    {
+      "id": "2",
+      "name": "smartwatch"
+    },
+    {
+      "id": "3",
+      "name": "accesorios"
+    }
+  ],
+  "productos": [
+    {
+      "id": "OzXZgsXylc",
+      "imageUrl": "https://m.media-amazon.com/images/I/61x3j-ZQc8L._AC_SL1200_.jpg",
+      "name": " STF | Smartwatch Kronos Iron",
+      "price": "1,199",
+      "categoria": "smartwatch",
+      "description": "EL SMARTWATCH IDEAL: El smartwatch Iron de STF redefine la elegancia con sus correas de acero inoxidable, fusionando un estilo atemporal con resistencia diaria."
+    },
+    {
+      "id": "amPVBOwALq",
+      "imageUrl": "https://m.media-amazon.com/images/I/41al5-lNvML._AC_SL1000_.jpg",
+      "name": "Iphone14 Pro",
+      "price": "15,063.28",
+      "categoria": "celulares",
+      "description": "Marca\tApple\nSistema operativo\tiOS 14\nCapacidad de almacenamiento de la memoria\t256 GB"
+    },
+    {
+      "id": "em4TBFItQX",
+      "imageUrl": "https://m.media-amazon.com/images/I/71ZaatSwrVL._AC_SL1500_.jpg",
+      "name": "UGREEN Soporte Celular",
+      "price": "315",
+      "categoria": "accesorios",
+      "description": "\nMarca\tUGREEN\nColor\tNegro, Gris\nDispositivos compatibles\tSmartphones"
+    },
+    {
+      "id": "AH8s3o1lRu",
+      "imageUrl": "https://m.media-amazon.com/images/I/61gDoLAo7qL._AC_SL1200_.jpg",
+      "name": "Xiaomi Poco F6 Pro",
+      "price": "10,127",
+      "categoria": "celulares",
+      "description": "\nMarca\tXiaomi\nSistema operativo\tMIUI 14\nTamaño de la memoria RAM instalada\t12"
+    }
+  ]
+}

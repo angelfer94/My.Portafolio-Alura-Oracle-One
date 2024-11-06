@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Inter:wght@100;200;300;700;800;900&family=Raleway:wght@100;300;400;500;600;700&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>AluraPhone - E-commerce</title>
+    <link rel="stylesheet" href="../css/reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/header.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/variables.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/banner.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/formStyle.css" rel="stylesheet">
+</head>
+<body>
+   <header class="header__container">
+        <div class="header__items">
+            <a class="header__logoHome" href="../index.html">
+                <img alt="Logo de AluraPhone" class="header__logoHome-image" src="../images/smartphone_logo.png">
+                <h2 class="header__logoHome-h2">AluraPhone</h2>
+            </a>
+            <div class="header__search" id="search__container">
+                <input class="header__search-input" id="search__items" placeholder=" Qué desea buscar ?" type="text">
+                <button class="header__search-button" id="search__action"><img alt="" class="header__search-icon"
+                        src="../images/header/search.svg"></button>
+            </div>
+        </div>
+        <a class="header__login" href="../screens/login.html">
+            <button class="header__login-button">Login</button>
+        </a>
+    </header>
+    <main>
+
+    </main>
+            <footer>
+        <section class="contacto__container">
+            <div class="cntacto_logo">
+                <a href="#">
+                    <img alt="logo" class="contacto__logoFoter" src="../images/smartphone_logo.png">
+                </a>
+            </div>
+            <div class="contacto__ingo">
+                <ul>
+                    <li class="contacto__info-li"><a class="contacto__info-text" href="#">Quienes somos</a></li>
+                    <li class="contacto__info-li"><a class="contacto__info-text" href="#">Política de privacidad</a></li>
+                    <li class="contacto__info-li"><a class="contacto__info-text" href="#">Programa de fidelidad</a>
+                    </li>
+                    <li class="contacto__info-li"><a class="contacto__info-text" href="#">Nuestras Tiendas</a></li>
+                    <li class="contacto__info-li"><a class="contacto__info-text" href="#">Quiero ser franquiciado</a>
+                    </li>
+                    <li class="contacto__info-li"><a class="contacto__info-text" href="#">Anunciarse aquí</a></li>
+                </ul>
+            </div>
+            <form class="contacto__contactar" id="form__data">
+                <h2 class="contacto__contactar-title">Comunícate con nosotros</h2>
+
+                <label class="contacto__contactar-nombre contacto__textBox">Nombre
+                    <input class="contacto__container-nombreInput" id="contact_nombre"
+                    name="nombre" placeholder="Angel Hernandez" required type="text">
+                </label>
+
+                <label class="contacto__mensaje contacto__textBox">
+                    Escribe tu mensaje
+                    <textarea class="contacto__mensaje-text" id="contact__mensaje" required></textarea>
+                </label>
+
+                <input class="contacto__button" id="contact__boton" type="submit" value="Enviar mensaje">
+            </form>
+        </section>
+
+        <div class="info__dev">
+            <p>Creado por Angel Fernando Hernandez Sanchez - Jul 2023</p>
+            <a href="https://github.com/angelfer94"><img src="../images/github.svg" alt="git logo"></a>
+            <a href="www.linkedin.com/in/angel-fernando-hernandez-sanchez-ba3303200"><img src="../images/linkedin.svg" alt="LinkedIn"></a>
+        </div>
+    </footer>
+
+    <script src="../controllers/editProducto.js" type ="module"></script>
+    <script src="../controllers/form-validation.js"></script>
+    <script src="../controllers/search.js"></script>
+
+</body>
+
+</html>
