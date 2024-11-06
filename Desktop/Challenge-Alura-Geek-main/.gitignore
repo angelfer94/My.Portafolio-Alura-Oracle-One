@@ -15,3 +15,11 @@ Thumbs.db
 node_modules/
 npm-debug.log
 .env
+
+# Ignorar archivos y carpetas del sistema
+Documents/
+Downloads/
+OneDrive/
+Pictures/
+Videos/
+Desktop/
