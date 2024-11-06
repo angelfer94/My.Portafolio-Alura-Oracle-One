@@ -1,3 +1,16 @@
+# Ignorar todo
+*
+
+# Excluir el directorio raíz y los archivos dentro de tu repositorio
+!/
+
+# Excluir los archivos específicos que quieres rastrear dentro del repositorio
+!index.html
+!style.css
+!assets/
+!README.md
+!.gitignore
+
 # Ignorar archivos del sistema operativo
 .DS_Store
 Thumbs.db
@@ -16,7 +29,7 @@ node_modules/
 npm-debug.log
 .env
 
-# Ignorar archivos y carpetas del sistema
+# Ignorar archivos y carpetas del sistema fuera del repositorio
 Documents/
 Downloads/
 OneDrive/
